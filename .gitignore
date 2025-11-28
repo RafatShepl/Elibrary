@@ -1,0 +1,81 @@
+# ====================================
+#        Node.js + React Project
+# ====================================
+
+# ===== Node Dependencies =====
+node_modules/
+**/node_modules/
+
+# ===== Environment Variables =====
+.env
+.env.*        # env.local, env.development, etc.
+backend/.env
+frontend/.env
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Build Outputs =====
+dist/
+build/
+backend/dist/
+frontend/build/
+frontend/dist/
+
+# ===== Cache =====
+.cache/
+**/.cache/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Vite Cache
+frontend/node_modules/.vite/
+
+# React Cache (CRA)
+frontend/.eslintcache
+
+# ===== Temp =====
+tmp/
+temp/
+*.tmp
+
+# ===== Coverage =====
+coverage/
+**/coverage/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===== TypeScript =====
+*.tsbuildinfo
+
+# ===== Uploads (optional) =====
+uploads/
+backend/uploads/
+
+# ===== PM2 =====
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===== Docker =====
+docker-data/
+
+# ===== Misc =====
+*.swp

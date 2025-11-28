@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+*{
+    font-family: "Delius", cursive;
+
+  font-style: normal;
+}
+
+h2{
+  font-size: xx-large;font-weight: bolder;
+  color: rgb(22, 141, 22);
+  margin: 10 px;
+  padding: 5px;
+  position: relative;
+  width: fit-content;
+}
+h2::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width :50%;height: 3px ;
+  background-color: rgb(42, 206, 42);
+ 
+}
